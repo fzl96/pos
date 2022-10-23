@@ -8,7 +8,7 @@ const TableData = [
     total: "$300.00",
   },
   {
-    id: 24212,
+    id: 21425,
     tableNumber: 2,
     date: "2021-10-01",
     time: "20:00",
@@ -16,7 +16,7 @@ const TableData = [
     total: "$200.00",
   },
   {
-    id: 34215,
+    id: 35253,
     tableNumber: 3,
     date: "2021-10-01",
     time: "21:05",
@@ -24,7 +24,7 @@ const TableData = [
     total: "$400.00",
   },
   {
-    id: 12421,
+    id: 42152,
     tableNumber: 1,
     date: "2021-10-01",
     time: "21:00",
