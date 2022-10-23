@@ -16,6 +16,19 @@ const Menus = () => {
       <div className="flex flex-col">
         <h1 className="font-bold text-3xl">Menus</h1>
       </div>
+      {/* <div className="flex justify-end mt-5">
+        <button className="bg-[#111827] py-2 px-4 text-white text-sm rounded-lg flex items-center gap-2">
+          <span className="text-lg">
+            <HiPlus />
+          </span>
+          New menu
+        </button>
+      </div> */}
+      <div className="fixed bottom-10 md:right-20 right-10">
+        <button className="flex items-center rounded-full py-2 px-4 bg-black text-white shadow-lg">
+          +
+        </button>
+      </div>
       <div className="mt-5">
         <Tabs color="dark" value={activeTab} onTabChange={setActiveTab}>
           <Tabs.List>
