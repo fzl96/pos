@@ -8,7 +8,7 @@ const Dashboard = () => {
   }, []);
 
   return (
-    <div className="text-2xl font-semibold">
+    <>
       <div className="flex flex-col">
         <h1 className="font-bold text-3xl">Dashboard</h1>
         <h1 className="text-lg font-medium text-[#5c6473] mb-5">Hello, User</h1>
@@ -40,7 +40,7 @@ const Dashboard = () => {
           <LineChart />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 export default Dashboard;

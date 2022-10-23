@@ -17,14 +17,14 @@ const Shell: React.FC<Props> = ({ children }) => {
       <div className="lg:w-96 fixed hidden lg:block h-screen bg-white border-r-2 border-[#D1D5DB]">
         <ul className="flex flex-col h-full px-[5.5rem] pt-[8rem] pb-20">
           {SideBarData.map((item, index) => (
-            <li key={index} className="last:mt-auto mb-2 text-[#5f6368]">
+            <li key={index} className="last:mt-auto mb-2 text-black">
               <NavLink
                 to={item.path}
                 className={
                   navLinkClass +
                   (pathname === item.path
                     ? " bg-[#111827] rounded-xl text-white"
-                    : " hover:bg-[#F3F4F6] hover:text-black")
+                    : " hover:bg-[#F3F4F6] hover:text-[#5f6368]")
                 }
               >
                 <span className="text-xl">{item.icon}</span>
