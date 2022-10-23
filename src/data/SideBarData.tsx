@@ -1,7 +1,9 @@
-import { MdDashboard } from 'react-icons/md';
-import { FiShoppingCart } from 'react-icons/fi';
-import { AiFillBook } from 'react-icons/ai'
-import { MdLocalDining } from 'react-icons/md'
+import { BiLogOut } from "react-icons/bi";
+import {
+  MdLocalDining,
+  MdShoppingCart,
+  MdSpaceDashboard,
+} from "react-icons/md";
 
 interface Props {
   title: string;
@@ -13,19 +15,24 @@ interface Props {
 const SideBarData: Props[] = [
   {
     title: "Dashboard",
-    icon: <MdDashboard />,
+    icon: <MdSpaceDashboard />,
     path: "/",
   },
   {
     title: "Orders",
-    icon: <FiShoppingCart />,
+    icon: <MdShoppingCart />,
     path: "/orders",
   },
   {
     title: "Menus",
     icon: <MdLocalDining />,
     path: "/menus",
-  }
-]
+  },
+  {
+    title: "Logout",
+    icon: <BiLogOut />,
+    path: "/login",
+  },
+];
 
 export default SideBarData;

@@ -1,6 +1,10 @@
+import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
+  useEffect(() => {
+    document.title = "POS - Login";
+  }, []);
 
   const navigate = useNavigate();
 
